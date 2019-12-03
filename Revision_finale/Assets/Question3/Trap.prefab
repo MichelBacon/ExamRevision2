@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212883128946443928}
   - component: {fileID: 60120267085533560}
   - component: {fileID: 114739734445329566}
+  - component: {fileID: 114314831862135228}
   m_Layer: 12
   m_Name: Trap
   m_TagString: Untagged
@@ -70,6 +71,38 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.000000021855694}
       - {x: 0.00000004371139, y: -0.5}
       - {x: 0.5, y: 0.0000000059624403}
+--- !u!114 &114314831862135228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646829584604802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 17
+    i1: 94
+    i2: 30
+    i3: 181
+    i4: 165
+    i5: 103
+    i6: 141
+    i7: 20
+    i8: 41
+    i9: 71
+    i10: 154
+    i11: 160
+    i12: 196
+    i13: 230
+    i14: 34
+    i15: 82
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114739734445329566
 MonoBehaviour:
   m_ObjectHideFlags: 1

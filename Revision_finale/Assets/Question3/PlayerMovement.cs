@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : NetworkBehaviour {
 
     [SerializeField] public float maxSpeed = 7;
     protected Vector2 targetVelocity;
@@ -30,7 +31,7 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void Update() {
-        if (controlAreEnable) {
+        if (isLocalPlayer && controlAreEnable) {
             ProcessInput();
         }
     }

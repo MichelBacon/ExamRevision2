@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-
-public class LayTrap : MonoBehaviour {
+public class LayTrap : NetworkBehaviour {
     public float reloadTime = 5;
     private float lastActivationTime;
     public GameObject trap;
